@@ -1,0 +1,148 @@
+.inline li{
+    display: inline-block;
+}
+.inline a{
+    letter-spacing: -0.5px; 
+}
+body,#header{
+    background: url("../img/bg.png") #fff;
+}
+#header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index: 99;
+}
+
+input.search{
+    font-family: '18vag_rounded_mbold';
+    margin: -0.115em 0 0.5em 0;
+    padding: 0.1em 0.5em;
+    font-size: 1.5em;
+    height: auto;
+    text-transform: lowercase;
+    vertical-align: bottom;
+    color: #808080;
+    -moz-border-radius: 1em 0 0 1em;
+    -webkit-border-radius: 1em 0 0 1em;
+    border-radius: 1em 0 0 1em;
+}
+input.searchS{
+    font-family: '18vag_rounded_mbold';
+    margin: 0 0 0 -0.3em;
+    padding: 0.1em 0;
+    width:2em;
+    font-size: 1.5em;
+    height: auto;
+    text-transform: uppercase;
+    vertical-align: bottom;
+    color: #fff;
+    -moz-border-radius: 0 1em 1em 0;
+    -webkit-border-radius: 0 1em 1em 0;
+    border-radius: 0 1em 1em 0;
+}
+.descript{
+    margin: 1.5em 0;
+}
+#sections{
+    background: #fff url('../img/bg.png');
+    padding: 0 0 2em;
+    border-bottom: 2px solid #ccc;
+    -moz-border-radius: 0 0 2em 2em;
+    -webkit-border-radius: 0 0 2em 2em;
+    border-radius: 0 0 2em 2em;
+    z-index: 99;
+}
+.bor{
+    border-right: 2px #ccc dotted;
+}
+#menu_out{
+    margin:0px;
+    padding:0px;
+    width:25px;
+    height:25px;
+    border: 2px #ccc solid;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius:  5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+#menu_out a{
+    color: #ccc;
+}
+#menu_out:hover{
+    border-color: #f00;
+}
+#menu_out a:hover{
+    color: #f00;
+}
+.art_main a:hover{
+    text-decoration: underline;
+}
+.art_title{
+    text-indent: 2.0em;
+}
+.art_text{
+    font-family: 'Arial';
+    text-indent: 1.5em;
+    line-height: 2.0em;
+}
+.art_text p{
+    font-family: 'Arial';
+}
+.art_footer{
+    background-color: #e1e1e1;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #000;
+}
+ul.pages li>a{
+    margin: 0 0.9em;
+    padding: 0 1em;
+    z-index: 15;
+}
+ul.pages,li{
+    z-index: 15;
+}
+.shadow{
+    background-color:#faff79;
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    -moz-border-radius: 1em 1em 1em 1em;
+    -webkit-border-radius:  1em 1em 1em 1em;
+    border-radius: 1em 1em 1em 1em;
+    z-index: 1;
+}
+.up>li{
+    height: 2.5em;
+    line-height: 2.5em;
+    color: inherit;
+}
+.up>li>a{
+    text-align: center;
+    color: i
+}
+/*-------------------------*/
+/*--------------------------*/
+div.current>span{
+	padding: 0px 4px;
+	display: inline-block;
+	font-size: 12px;
+}
+span.current{
+	color: #ff0000;
+}
+div.title{
+	vertical-align:baseline;
+}
+div.title>h1{
+	font-size: 42px;
+}
+.minW{
+	min-width: 100px;
+}
+/* Блоки обзоров */
+
+.rightBlock{
+    border-bottom: 1px solid #232323;
+}
